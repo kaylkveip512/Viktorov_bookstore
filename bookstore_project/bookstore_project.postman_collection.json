@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "8f8dd583-0269-4935-b490-156ddc0ca91b",
+		"name": "bookstore_project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48734606",
+		"_collection_link": "https://kaylkveip512-9635836.postman.co/workspace/Dan's-Workspace~121cf1a2-da1d-4931-8bb0-1c8ea1b6aa89/collection/48734606-8f8dd583-0269-4935-b490-156ddc0ca91b?action=share&source=collection_link&creator=48734606"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/main/book/",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/main/author/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/main/author/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"main",
+						"author",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/main/genre/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/main/genre/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"main",
+						"genre",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/main/publisher/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/main/publisher/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"main",
+						"publisher",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
